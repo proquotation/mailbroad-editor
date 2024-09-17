@@ -2,14 +2,14 @@
   "name": "mailbroad-editor",
   "license": "MIT",
   "description": "Email editor",
-  "version": "1.0.0",
-  "author": "mailbroad-sanjay",
+  "version": "1.0.1",
+  "author": "Sanjay",
   "repository": {
     "type": "git",
     "url": "git@github.com:proquotation/mailbroad-editor.git"
   },
   "keywords": [
-    "mailbroad editor core"
+    "mailbroad editor"
   ],
   "files": [
     "lib"
@@ -68,7 +68,7 @@
     "vite": "^2.6.14"
   },
   "peerDependencies": {
-    "mailbroad-core": "^1.0.0",
+    "mailbroad-core": "^1.0.1",
     "mjml-browser": "^4.10.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
