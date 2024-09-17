@@ -1,7 +1,7 @@
 const transform = (text: string, id?: string) => {
   return text.replace(/{{([\s\S]+?)}}/g, (_, $1) => {
     const input = document.createElement('input');
-    input.className = 'easy-email-merge-tag';
+    input.className = 'mailbroad-merge-tag';
     input.value = $1;
     input.type = 'button';
     if (id) {
@@ -39,7 +39,7 @@ export class MergeTagBadge {
   static revert(content: string, generateMergeTag: (s: string) => string) {
     const container = document.createElement('div');
     container.innerHTML = content;
-    container.querySelectorAll('.easy-email-merge-tag').forEach((item: any) => {
+    container.querySelectorAll('.mailbroad-merge-tag').forEach((item: any) => {
       item.parentNode?.replaceChild(
         document.createTextNode(generateMergeTag(item.value)),
         item

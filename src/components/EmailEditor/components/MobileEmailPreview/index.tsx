@@ -29,7 +29,7 @@ export function MobileEmailPreview() {
 
   return (
     <div
-      className='easy-email-overlay'
+      className='mailbroad-overlay'
       style={{
         height: '100%',
         display: 'flex',

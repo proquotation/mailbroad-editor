@@ -44,7 +44,7 @@ export function EditEmailPreview() {
         }}
       >
         <div
-          id='easy-email-plugins'
+          id='mailbroad-plugins'
           style={{
             position: 'relative',
           }}

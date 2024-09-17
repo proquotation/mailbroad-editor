@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      easy-email-core:
+      mailbroad-core:
         specifier: ^4.3.6
         version: 4.12.2(react-dom@18.2.0)(react@18.2.0)
       final-form:
@@ -594,7 +594,7 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  easy-email-core@4.12.2:
+  mailbroad-core@4.12.2:
     resolution: {integrity: sha512-cfl09YInI4RYuNKhZJykQIMs22QbEYBo+BLtDcbiu2hBzJscPOLZ2mW0MQyhu0LJSiVkie+fmQLqmTXcmCCMfg==}
     peerDependencies:
       react: ^18.2.0
@@ -2447,7 +2447,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  easy-email-core@4.12.2(react-dom@18.2.0)(react@18.2.0):
+  mailbroad-core@4.12.2(react-dom@18.2.0)(react@18.2.0):
     dependencies:
       he: 1.2.0
       js-beautify: 1.15.1

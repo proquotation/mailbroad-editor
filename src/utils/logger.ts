@@ -1,6 +1,6 @@
 const originalErrorLog = console.error;
 
-// ignore expected error logs from easy-email
+// ignore expected error logs from mailbroad
 export const overrideErrorLog = () => {
   console.error = (message?: any, ...optionalParams: any[]) => {
     if (

@@ -14,8 +14,8 @@ export const Button: React.FC<ButtonProps> = props => {
     <button
       onClick={props.onClick}
       className={classnames(
-        'easy-email-editor-button',
-        props.noBorder && 'easy-email-editor-noBorder',
+        'mailbroad-editor-button',
+        props.noBorder && 'mailbroad-editor-noBorder',
       )}
       title={props.title}
       disabled={props.disabled}

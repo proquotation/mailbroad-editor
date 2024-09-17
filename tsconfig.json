@@ -23,9 +23,9 @@
     "paths": {
       "@": ["./src"],
       "@/*": ["./src/*"],
-      "@core": ["../easy-email-core/src"],
-      "@core/*": ["../easy-email-core/src/*"],
-      "easy-email-core": ["../easy-email-core"],
+      "@core": ["../mailbroad-core/src"],
+      "@core/*": ["../mailbroad-core/src/*"],
+      "mailbroad-core": ["../mailbroad-core"],
       "react": ["./node_modules/@types/react"]
     }
   },

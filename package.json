@@ -2,7 +2,7 @@
   "name": "mailbroad-editor",
   "license": "MIT",
   "description": "Email editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Sanjay",
   "repository": {
     "type": "git",
@@ -68,7 +68,7 @@
     "vite": "^2.6.14"
   },
   "peerDependencies": {
-    "mailbroad-core": "^1.0.1",
+    "mailbroad-core": "^1.0.2",
     "mjml-browser": "^4.10.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

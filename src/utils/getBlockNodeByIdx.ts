@@ -1,4 +1,4 @@
-import { getNodeIdxClassName } from 'easy-email-core';
+import { getNodeIdxClassName } from 'mailbroad-core';
 import { getBlockNodes } from './getBlockNodes';
 
 export const getBlockNodeByIdx = (idx: string): HTMLElement | null => {
