@@ -31,7 +31,7 @@ $base-font-size: 10px;
 @mixin stack-spacing($spacing: base) {
   margin-top: -1 * spacing($spacing);
   margin-left: -1 * spacing($spacing);
-  > .Item {
+  & > .Item {
     margin-top: spacing($spacing);
     margin-left: spacing($spacing);
     max-width: 100%;
@@ -39,10 +39,10 @@ $base-font-size: 10px;
 }
 
 .Stack {
-  @include stack-spacing;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
+  @include stack-spacing;
 }
 
 .noWrap {
@@ -122,7 +122,7 @@ $base-font-size: 10px;
   flex-direction: column;
   margin-left: spacing(none);
 
-  > .Item {
+  & > .Item {
     margin-left: spacing(none);
   }
 }
